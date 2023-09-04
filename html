@@ -1,40 +1,128 @@
-<!DOCTYPE html>
-<html>
+!DOCTYPE html>
+<html lang="en" __snippetscriptloaded__="yes"
 
-  <head>
-    <title>sumeya's website </title>
-    <link href="style.css" rel="styleSheet" 
-  </head>
 
-  <body>
-    <!-- cute lil sections for category on it x --> 
-    <section>
-      <h1> hi, </h1>
-      <h2> i'm sumeya! </h2>
-    </section>
+<head>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>sumeyas website</title>
+    <meta name="description" content="hii, im a 15 yo programmer from london. check out the website i made ^^ ">
+    <meta name="keywords" content= "personal website,sumeya,dahir, sumeya dahir, software developer, 15 year old, css, html, website, front end developer, full stack developer, angular, node js, programming, github, gitlab" > 
+  
     
-    <section>
-      <p> i love all things coding, if youre interested u better continue reading. </p> 
-    </section>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@300&display=swap" rel="stylesheet">
+
+    <!-- <link href="style.css" rel="styleSheet" -->
+        <!-- create a file on local called style.css an copy paste the whole style sheet into it uncomment the link above-->  
+      
+        <!-- color: #6086B1; for color of secondary fonts, coding aesthetic kinda thing?-->
+      
+      <!-- temp style for cards css and link to google fonts  -->
+      <!-- gradient on style cards, background colours are idek atp maybe beigey white?> -->
+
+    <style>
+        /* Global CSS styles */
+        body {
+            font-family: 'M PLUS Code Latin', sans-serif;
+            color: black;
+        }
+
+        h1, h2, h3 {
+            color: black;
+            font-family: 'M PLUS Code Latin', sans-serif;
+        }
+
+        p {
+            color: black;
+            opacity: 0.7;
+            font-family: 'M PLUS Code Latin', sans-serif;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        a {
+            color:  #6086B1;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color:  #426288;
+        }
+
+        /* CSS styles for cards */
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 16px;
+            margin-bottom: 24px;
+            background: hsla(212, 59%, 63%, 1);
+            background: radial-gradient(circle, hsla(212, 59%, 63%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+            background: -moz-radial-gradient(circle, hsla(212, 59%, 63%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+            background: -webkit-radial-gradient(circle, hsla(212, 59%, 63%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6A9ED8", endColorstr="#FFFFFF", GradientType=1);
+        }
+    </style>
+
     
-    <section> 
-      <h3>childhood and how i found coding </h3> 
-    </section>
 
+</head>
+
+<body>
+    
+    <a href = "#" onMouseOver = "document.myImage.src = image2.src;"
+         onMouseOut = "document.myImage.src = image1.src;">
+         <img name = "myImage" src = "/images/html.gif" >
+
+    <img src="images/sumeya.jpg" alt="image of Sumeya at Kode with Klossy" width="200">
     <section>
-      <h3>projects im working on rn</h3>
+        <h1 class="greetingFrontPage">hey,</h1>
+        <h3 class="nameIntroduction">i'm sumeya!</h3>
+        <button><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">click me for a surprise</a></button>
+        <br>
     </section>
-
+    <div>
+        <p><i>learn more ab me and my life below x </i></p>
+    </div>
+    <div class="cards">
+        <h3>my babyhood and how i found codingg</h3>
+        <img src="babySumeya.jpg" alt="Sumeya" width="500" height="600">
+        <p>i was an adorable little twat wasnt i . well not anymore x <br>
+            well i found coding like in year 7, but i goofed off in class. (kool math games and friv is an elite combo fr :p) we were doing python but didnt acc do any coding until like 1 year ago?? well i js cba to wait for the teacher to teach so i went and learned it. and a buncha others for the lols </p>
+    </div>
+    <div class="cards">
+        <h3>projects i'm working on rn</h3>
+        <img src="diem.jpg" alt="KWK" width="500" height="600">
+        <img src="scrapbook.jpg" alt="Manya, Sumeya, Mina, and Sabrina Group" width="500" height="600">
+    </div>
+    <div class="cards">
+        <h3>experience and programming languages ik</h3>
+        <img src="htmlandcss.jpg" alt="HTML and CSS" width="500" height="600">
+        <p>yepp as you can tell from this beautiful website (not to toot my own horn) i am proficient in CSS and HTML </p>
+        <img src="pythonImg.jpg" alt="Python" width="500" height="600">
+        <img src="xcode.jpg" alt="Xcode and Swift UI" width="500" height="600">
+        <img src="javascript.jpg" alt="JavaScript" width="500" height="600">
+    </div>
     <section>
-      <h3>experience and programming languages i know </h3>
+        <footer class="linksEndBody"><em>more about me</em></footer>
+        <a href="https://www.linkedin.com/">my linkedin or smt</a>
+        <br>
+        <embed src="/html/Kalimba.mp3" loop="true" autostart="true" width="2" height="0">
     </section>
-
-    <section>
-      <p><italics> find out more about me <italics></p>
-        <a href = "https.youtube.com" >youtube or smt</a>
-    </section>
-
-  </body>
-
+</body>
 </html>
- 
